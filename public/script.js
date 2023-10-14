@@ -8,7 +8,7 @@ window.onload = function () {
 
   myFunction();
 };
-const baseurl = 'http://localhost:3000'
+const baseurl = 'https://venthere.onrender.com'
 
 function myFunction() {
   fetch(`${baseurl}/api/vents`)
