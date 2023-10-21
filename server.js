@@ -18,4 +18,4 @@ app.use(bodyParser.json());
 app.use(express.json());
 app.use('/api/vents', vents)
 app.use(express.static('public'));
-app.listen(3000, console.log('listening on port 3000...'))
+app.listen(console.log('listening on port 3000...'))
